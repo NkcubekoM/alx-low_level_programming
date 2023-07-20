@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _isdigit - check if numbers are 0 - 9
- * @c: char to be checked
- *
- * Return: 0 or 1
+ * _isupper - Check if a letter is upper
+ * @x: The number to be checked
+ * Return: 1 for upper letter or 0 for any else
  */
 
-int _isdigit(int c)
-{
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
-}
+int _isupper(int x)
 
+{
+	if (x >= 65 && x <= 90)
+	{
+	return (1);
+	}
+	return (0);
+}
